@@ -1,0 +1,368 @@
+.home-wrapper {
+  font-family: 'Inter', sans-serif;
+  color: #f8fafc;
+}
+
+/* HERO SECTION */
+.hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.15;
+  color: #f8fafc;
+  margin-bottom: 1.5rem;
+}
+
+.hero-subtitle {
+  font-size: 1.1rem;
+  color: #cbd5e1;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  max-width: 90%;
+}
+
+.hero-checklist {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem 0;
+}
+
+.hero-checklist li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+  color: #94a3b8;
+}
+
+.check-icon {
+  color: var(--lampzi-green);
+  width: 20px;
+  height: 20px;
+}
+
+.hero-cta-box {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.cta-button {
+  background-color: var(--lampzi-green);
+  color: white;
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.cta-button:hover {
+  background-color: var(--lampzi-green-hover);
+  transform: translateY(-2px);
+}
+
+.offer-tag {
+  color: var(--lampzi-green);
+  font-weight: 700;
+  background: #1e293b;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.trusted-by {
+  font-size: 0.9rem;
+  color: #64748b;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 1.5rem;
+}
+
+.trusted-by p {
+  margin: 0 0 0.5rem 0;
+}
+
+.logos-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 800;
+  color: #f8fafc;
+  font-size: 1.25rem;
+}
+
+.hero-image-mock {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.abstract-card {
+  width: 100%;
+  max-width: 400px;
+  background: #1e293b; /* Slate 800 */
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5); /* Strong shadow */
+  border: 1px solid #334155;
+}
+
+.skeleton-line {
+  height: 12px;
+  background: #334155;
+  border-radius: 6px;
+}
+
+.w-full { width: 100%; }
+.w-3\/4 { width: 75%; }
+.w-5\/6 { width: 83%; }
+
+.skeleton-badge {
+  display: inline-block;
+  background: var(--lampzi-green);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+/* TESTIMONIALS */
+.testimonials-section {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #0f172a; /* Slate 900 */
+}
+
+.testimonials-section h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #f8fafc;
+  margin-bottom: 0.5rem;
+}
+
+.section-sub {
+  color: #94a3b8;
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.test-card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: left;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+}
+
+.test-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.role-badge {
+  background: var(--lampzi-green);
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 800;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  letter-spacing: 0.5px;
+}
+
+.stars {
+  color: #fbbf24;
+  letter-spacing: 2px;
+}
+
+.test-content {
+  color: #cbd5e1;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.test-author {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-top: 1px solid #334155;
+  padding-top: 1rem;
+}
+
+.author-avatar {
+  width: 45px;
+  height: 45px;
+  background: var(--lampzi-green);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.author-name {
+  margin: 0 0 0.25rem 0;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.author-title {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
+
+/* FAQ SECTION */
+.faq-section {
+  text-align: center;
+  padding: 5rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-section h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #f8fafc;
+  margin-bottom: 0.5rem;
+}
+
+.faq-list {
+  margin-top: 3rem;
+  text-align: left;
+}
+
+.faq-item {
+  border: 1px solid #334155;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.faq-question {
+  width: 100%;
+  text-align: left;
+  background: #1e293b;
+  border: none;
+  padding: 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #f8fafc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.faq-answer {
+  padding: 0 1.5rem 1.5rem 1.5rem;
+  background: #1e293b;
+  color: #94a3b8;
+  line-height: 1.6;
+}
+
+.support-cta {
+  margin-top: 4rem;
+}
+
+.support-btn {
+  background: var(--lampzi-green);
+  color: white;
+  padding: 1rem 2rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.support-btn:hover {
+  opacity: 0.9;
+}
+
+/* FOOTER */
+.lampzi-footer {
+  background: #020617; /* Deepest Dark */
+  color: white;
+  padding: 4rem 2rem 2rem 2rem;
+}
+
+.footer-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 2rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.footer-logo {
+  font-size: 1.75rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.footer-desc {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.footer-links h4 {
+  font-size: 1rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.5px;
+}
+
+.footer-links a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.footer-links a:hover {
+  opacity: 1;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 0.85rem;
+  opacity: 0.7;
+}

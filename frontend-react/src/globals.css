@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --lampzi-green: #06b6d4; /* Neon Cyan */
+  --lampzi-green-hover: #0891b2; /* Darker Cyan */
+  --bg-color: #0f172a; /* Slate 900 */
+  --text-main: #f8fafc; /* Slate 50 */
+  --text-muted: #94a3b8; /* Slate 400 */
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Page Layout Wrappers */
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}

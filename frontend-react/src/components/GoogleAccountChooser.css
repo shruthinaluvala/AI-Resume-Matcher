@@ -1,0 +1,140 @@
+.google-modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  font-family: 'Roboto', 'Segoe UI', Tahoma, sans-serif;
+}
+
+.google-modal-content {
+  background: #ffffff;
+  width: 100%;
+  max-width: 448px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.google-modal-header {
+  text-align: center;
+  padding: 36px 36px 16px 36px;
+}
+
+.google-modal-logo {
+  margin-bottom: 12px;
+}
+
+.google-modal-title {
+  font-size: 24px;
+  font-weight: 400;
+  color: #202124;
+  margin: 0 0 8px 0;
+}
+
+.google-modal-subtitle {
+  font-size: 16px;
+  color: #202124;
+  margin: 0;
+}
+
+.google-modal-appinfo {
+  margin-top: 12px;
+  border-top: 1px solid #dadce0;
+  padding-top: 12px;
+  font-size: 14px;
+  color: #3c4043;
+}
+
+.google-modal-appinfo b {
+  font-weight: 500;
+}
+
+/* Account List */
+.google-account-list {
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid #dadce0;
+}
+
+.google-account-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 36px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+  border-bottom: 1px solid #dadce0;
+}
+
+.google-account-item:hover {
+  background-color: #f8f9fa;
+}
+
+.account-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 14px;
+}
+
+.account-details {
+  flex: 1;
+}
+
+.account-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: #3c4043;
+  line-height: 1.4;
+}
+
+.account-email {
+  font-size: 12px;
+  color: #5f6368;
+}
+
+/* Add Account Action */
+.action-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-text {
+  font-weight: 500;
+  font-size: 14px;
+  color: #3c4043;
+}
+
+/* Footer */
+.google-modal-footer {
+  padding: 24px 36px;
+  background: #ffffff;
+}
+
+.google-modal-footer p {
+  margin: 0;
+  font-size: 12px;
+  color: #5f6368;
+  line-height: 1.4;
+}
+
+.google-modal-footer a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.google-modal-footer a:hover {
+  text-decoration: underline;
+}

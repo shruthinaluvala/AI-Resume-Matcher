@@ -1,0 +1,215 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(2, 6, 23, 0.7); /* Deep dark overlay */
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.modal-content {
+  background: #1e293b; /* Slate 800 */
+  width: 100%;
+  max-width: 550px;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+  border: 1px solid #334155;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px) scale(0.98); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* Header */
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1.5rem 2rem;
+  background: #0f172a; /* Slate 900 for header */
+  border-bottom: 1px solid #334155;
+}
+
+.header-text {
+  text-align: center;
+  flex: 1;
+  padding-left: 32px; /* Offset for close button to keep centered */
+}
+
+.header-text h2 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #f8fafc;
+}
+
+.header-text p {
+  margin: 0;
+  color: #94a3b8;
+  font-size: 0.95rem;
+}
+
+.close-btn {
+  background: transparent;
+  border: none;
+  color: #94a3b8;
+  cursor: pointer;
+  padding: 0.25rem;
+  border-radius: 8px;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-btn:hover {
+  background: #334155;
+  color: #f8fafc;
+}
+
+/* Body */
+.modal-body {
+  padding: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #cbd5e1;
+  margin-bottom: 0.5rem;
+}
+
+/* Segmented Control */
+.segmented-control {
+  display: flex;
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 30px;
+  overflow: hidden;
+  padding: 0.25rem;
+}
+
+.segment-btn {
+  flex: 1;
+  background: transparent;
+  border: none;
+  padding: 0.75rem 1rem;
+  color: #94a3b8;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.segment-btn:hover:not(.active) {
+  color: #cbd5e1;
+}
+
+.segment-btn.active {
+  background: var(--lampzi-green); /* Neon Cyan */
+  color: #0f172a; /* Very dark text for contrast against cyan */
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Inputs */
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  background: #0f172a;
+  border: 1px solid #334155;
+  color: #f8fafc;
+  padding: 0.85rem 1rem;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+  box-sizing: border-box;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #475569;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--lampzi-green);
+  box-shadow: 0 0 0 2px rgba(6, 182, 212, 0.2);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Footer Actions */
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #334155;
+}
+
+.btn-cancel {
+  background: transparent;
+  border: 1px solid #475569;
+  color: #cbd5e1;
+  padding: 0.75rem 2rem;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-cancel:hover {
+  background: #334155;
+  color: #f8fafc;
+  border-color: #64748b;
+}
+
+.btn-submit {
+  background: var(--lampzi-green);
+  border: none;
+  color: #0f172a; /* Dark text for contrast */
+  padding: 0.75rem 2.5rem;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-submit:hover:not(:disabled) {
+  background: var(--lampzi-green-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(6, 182, 212, 0.3);
+}
+
+.btn-submit:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

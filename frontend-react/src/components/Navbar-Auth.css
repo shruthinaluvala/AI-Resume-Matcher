@@ -1,0 +1,30 @@
+/* AUTH BUTTONS IN NAV */
+.auth-buttons-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-login-btn {
+  font-weight: 600;
+  color: #cbd5e1; /* Light Slate */
+  transition: color 0.2s;
+}
+
+.nav-login-btn:hover {
+  color: var(--lampzi-green);
+}
+
+.nav-signup-btn {
+  background-color: var(--lampzi-green);
+  color: white;
+  font-weight: 600;
+  padding: 0.6rem 1.25rem;
+  border-radius: 20px;
+  transition: background-color 0.2s;
+}
+
+.nav-signup-btn:hover {
+  background-color: var(--lampzi-green-hover);
+  color: white;
+}
