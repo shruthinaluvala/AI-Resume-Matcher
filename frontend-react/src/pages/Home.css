@@ -143,6 +143,70 @@
   font-weight: bold;
 }
 
+/* HOW IT WORKS SECTION */
+.how-it-works-section {
+  text-align: center;
+  padding: 5rem 2rem;
+  background-color: #020617;
+}
+
+.how-it-works-section h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #f8fafc;
+  margin-bottom: 0.5rem;
+}
+
+.steps-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 3rem auto 0;
+}
+
+.step-card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 16px;
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.step-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+  border-color: var(--lampzi-green);
+}
+
+.step-icon {
+  width: 70px;
+  height: 70px;
+  background: rgba(34, 197, 94, 0.1); 
+  color: var(--lampzi-green);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+}
+
+.step-card h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #f8fafc;
+  margin-bottom: 1rem;
+}
+
+.step-card p {
+  color: #cbd5e1;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
 /* TESTIMONIALS */
 .testimonials-section {
   text-align: center;

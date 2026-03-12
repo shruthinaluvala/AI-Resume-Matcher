@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { CheckCircle2, ChevronDown, ChevronUp } from 'lucide-react';
+import { CheckCircle2, ChevronDown, ChevronUp, Upload, Cpu, Target, Download } from 'lucide-react';
 import FeedbackModal from '../components/FeedbackModal';
 import './Home.css';
 
@@ -25,22 +25,22 @@ export default function Home() {
     {
       role: "ENGINEERING",
       content: "SkillMatch AI made my job hunt so much easier! The gap analysis highlighted exactly what skills I was missing from the job descriptions. Highly recommended!",
-      initials: "AM",
-      name: "Aarav Mehta",
+      initials: "PS",
+      name: "Priya Sharma",
       title: "Final Year Student, IIT Bombay"
     },
     {
       role: "PRODUCT",
       content: "I loved how easy it was to customize my resume for different product roles. The interface is intuitive and the NLP matching is incredibly accurate.",
-      initials: "SR",
-      name: "Sneha Reddy",
+      initials: "RV",
+      name: "Rahul Verma",
       title: "Product Manager, Bangalore"
     },
     {
       role: "TECHNOLOGY",
       content: "The BERT similarity scoring gave my resume a professional edge. Recruiters complimented my exact keyword matches. SkillMatch is a game changer!",
-      initials: "RG",
-      name: "Rohan Gupta",
+      initials: "AD",
+      name: "Anjali Desai",
       title: "Senior Software Engineer, Hyderabad"
     }
   ];
@@ -89,6 +89,46 @@ export default function Home() {
             <div className="skeleton-line w-full mt-4"></div>
             <div className="skeleton-line w-5/6 mt-2"></div>
             <div className="skeleton-badge mt-6">Match Score: 98%</div>
+          </div>
+        </div>
+      </section>
+
+      {/* HOW TO USE SECTION */}
+      <section className="how-it-works-section">
+        <h2>How to use AI Resume Matcher</h2>
+        <p className="section-sub">Four simple steps to land your dream job.</p>
+        
+        <div className="steps-container">
+          <div className="step-card">
+            <div className="step-icon">
+              <Upload size={32} />
+            </div>
+            <h3>1. Upload</h3>
+            <p>Upload your current resume and the target job description.</p>
+          </div>
+          
+          <div className="step-card">
+            <div className="step-icon">
+              <Cpu size={32} />
+            </div>
+            <h3>2. Analyze</h3>
+            <p>Our AI engines instantly analyze and compare the text.</p>
+          </div>
+          
+          <div className="step-card">
+            <div className="step-icon">
+              <Target size={32} />
+            </div>
+            <h3>3. Review Gaps</h3>
+            <p>Get your Match Score and identify exactly what skills are missing.</p>
+          </div>
+          
+          <div className="step-card">
+            <div className="step-icon">
+              <Download size={32} />
+            </div>
+            <h3>4. Optimize</h3>
+            <p>Download a regenerated, ATS-optimized version of your resume.</p>
           </div>
         </div>
       </section>

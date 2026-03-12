@@ -36,7 +36,12 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    <BrowserRouter
+      future={{
+        v7_startTransition: true,
+        v7_relativeSplatPath: true,
+      }}
+    >
       {/* Pass auth state to Navbar to toggle Sign In / Out */}
       <Navbar isAuthenticated={!!authToken} onLogout={handleLogout} />
       
