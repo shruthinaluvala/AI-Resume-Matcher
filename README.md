@@ -12,8 +12,7 @@ An intelligent full-stack application that analyzes resumes against Job Descript
 ## 📸 Application Screenshots
 
 ### 🏠 Home Page
-![Home Page]([ ![Uploading Screenshot 2026-04-14 155325.png…]()
- ])
+"C:\Users\sruth\OneDrive\Pictures\Screenshots\Screenshot 2026-04-14 155325.png"
 ![Home Page]([image_url_here])
 ![Home Page]([image_url_here])
 ![Home Page]([image_url_here])
