@@ -9,25 +9,7 @@ An intelligent full-stack application that analyzes resumes against Job Descript
 - **Frontend (Live Application):** [https://ai-resume-matcher.vercel.app](https://ai-resume-matcher-flax.vercel.app/)
 - **Backend API Layer:** [https://ai-resume-matcher-37rt.onrender.com](https://ai-resume-matcher-37rt.onrender.com)
 ---
-## 📸 Application Screenshots
 
-### 🏠 Home Page
-
-![Home Page]([ ![Uploading Screenshot 2026-04-14 155325.png…] )
-![Home Page]([image_url_here])
-![Home Page]([image_url_here])
-![Home Page]([image_url_here])
-
-
-### 🔐 Signup Page
-![Signup Page]([image_url_here])
-### 🚪 Login Page
-![Login Page]([image_url_here])
-### 🕒 History Page
-![History Page]([image_url_here])
-### 💡 Resume Tips Page
-![Resume Tips Page]([image_url_here])
----
 ## ✨ Key Features
 - **Intelligent Parsing:** Supports file uploads (PDF/Docx/TXT) or direct copy-pasting for Resumes and Job Descriptions.
 - **Advanced NLP Matching:** Calculates BERT-style semantic similarity, Match Scores, and ATS compatibility out of 100.
