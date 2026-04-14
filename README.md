@@ -1,4 +1,3 @@
-<img width="1915" height="858" alt="Screenshot 2026-04-14 155325" src="https://github.com/user-attachments/assets/6d3c57ac-02ca-45c9-9aea-c4c030479141" /># 🚀 SkillMatch AI - Resume Analyzer & Optimizer
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
