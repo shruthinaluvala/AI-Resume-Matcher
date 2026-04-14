@@ -7,11 +7,11 @@
 ![Deployed on Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
 An intelligent full-stack application that analyzes resumes against Job Descriptions (JDs) using NLP-based skill extraction and semantic similarity calculations. It helps candidates optimize their resumes to pass ATS (Applicant Tracking Systems) checks, identifies skill gaps, and auto-generates 100% matched, ATS-friendly resumes.
 ## 🚀 Live Demo
-- **Frontend (Live Application):** [https://ai-resume-matcher.vercel.app](https://ai-resume-matcher.vercel.app)
+- **Frontend (Live Application):** [https://ai-resume-matcher.vercel.app](https://ai-resume-matcher-flax.vercel.app/)
 - **Backend API Layer:** [https://ai-resume-matcher-37rt.onrender.com](https://ai-resume-matcher-37rt.onrender.com)
 ---
 ## 📸 Application Screenshots
-*(Note: Replace the `[image_url_here]` placeholders with actual GitHub structural links once you upload the screenshots to a `docs` or `assets` folder in your repository).*
+
 ### 🏠 Home Page
 ![Home Page]([image_url_here])
 ### 🔐 Signup Page
